@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex; /*Căn chỉnh các phần tử con*/
+    justify-content: center; /*Căn giữa các phần tử con theo chiều ngang*/
+    align-items: center; /*Căn giữa các phần tử con theo chiều dọc*/
+}
+.box {
+    width: 350px;
+    height: 400px;
+    display: block;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    box-shadow: 3px 5px 4px rgb(184, 162, 162); /*Thêm hiệu ứng đổ bóng*/
+    border-radius: 15px; /*Làm tròn các góc*/
+    text-align: center;/*Căn giữa văn bản bên trong div.box */
+}
+h2 {
+    margin-right: 140px;
+} 
+#one {
+    margin-right: 65px;
+}
+button {
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #4f4949;
+    background-color:rgb(255, 255, 255);
+}
+button:hover {
+    background-color: rgb(221, 213, 186);
+}
+button:active {
+    background-color: #c8d47e;
+}
+#two {
+    margin-right: 31px;
+}
+input {
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #c2bbbb82;
+}
+#three {
+    background-position: center;
+    background-color: rgb(255, 106, 0);
+    border: 0px solid rgb(255, 255, 255)
+}
+#three:active {
+    background-color: rgba(226, 125, 29, 0.66);
+}

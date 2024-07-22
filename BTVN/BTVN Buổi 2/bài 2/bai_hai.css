@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex; /*Căn chỉnh các phần tử con*/
+    justify-content: center; /*Căn giữa các phần tử con theo chiều ngang*/
+    align-items: center; /*Căn giữa các phần tử con theo chiều dọc*/
+}
+.box {
+    width: 280px;
+    height: 380px;
+    border: 1px solid rgb(226, 205, 205);
+    background-image: url(https://static.kfcvietnam.com.vn/images/category/lg/GA.jpg?v=g9o6AL);
+    background-repeat: no-repeat;
+    background-color:beige;
+    background-size: 280px 250px;
+    box-shadow: 5px 5px 5px rgb(159, 201, 147);
+    border-radius: 5px;
+}
+.content {
+    position: relative;;
+    bottom: -50px;
+    margin-top: 210px;
+    margin-left: 10px;
+
+}
+#add {
+    border-radius: 80px;
+    background-color: rgb(230, 146, 18);
+    color: white;
+    margin-left: 65px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+#add:active {
+    background-color: rgb(218, 206, 99);
+}
